@@ -48,19 +48,19 @@ a:visited{
 
 .main-deals{
     height: 44em;
-    background-image: url(../images/woman.underwater.jpg);
+    background-image: url(../images/placeholder-white.png);
     background-size: cover;
     overflow: hidden;
 }
 .secondary-deals{
     height: 28em;
-    background-image: url(../images/fashion.dog-walking.jpg);
+    background-image: url(../images/placeholder-yellow.png);
     background-size: cover;
     overflow: hidden;
 }
 .third-order-deals{
     height: 16em;
-    background-image: url(../images/outdoors.woman.jpg);
+    background-image: url(../images/placeholder-white.png);
     background-size: cover;
     background-position-y: -130px;
     overflow: hidden;
@@ -68,14 +68,14 @@ a:visited{
 
 .fourth-order-deals{
     height: 38em;
-    background-image: url(../images/crafts.brushes.jpg);
+    background-image: url(../images/placeholder-yellow.png);
     background-size: cover;
     background-position-x: -150px;
     overflow: hidden;
 }
 .last-but-not-least{
     height: 38em;
-    background-image: url(../images/woman.taking-picture.jpg);
+    background-image: url(../images/placeholder-white.png);
     background-size: cover;
     overflow: hidden;
 }
@@ -133,4 +133,22 @@ footer{
 
 footer li{
     list-style: none;
+}
+
+.banner-left-photo,
+.banner-right-photo,
+.banner-left-painting,
+.banner-right-painting,
+.banner-left-prints,
+.banner-right-prints,
+.banner-left-drawing,
+.banner-right-drawing{
+    height: 28em;
+    background-size: cover;
+}
+.banner-left-photo{
+    background-image: url(../images/placeholder-white.png);
+}
+.banner-right-photo{
+    background-image: url(../images/placeholder-yellow.png);
 }
