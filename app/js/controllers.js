@@ -12,8 +12,10 @@ artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($s
     'B00XAQX8O6',
     'B00E83VN9C'
     ];
+
     $scope.artworks = [];
-    _.each(products,function(asin, index, list){
+
+    _.each(productList,function(asin, index, list){
         $.getJSON('../api/amazon/lookup/' + asin)
             .success(function (data) {
                 $scope.artworks.push( data );
@@ -24,6 +26,7 @@ artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($s
             })
     });
 }])
+
 artApp.controller('PaintingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
     document.title = 'pleasant.space - painting'; //set the page title
     var productList = [
