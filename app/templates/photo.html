@@ -5,10 +5,10 @@
 
 <section class="container sale-items">
   <article ng-repeat="art in artworks track by $index" class="col-sm-6 col-md-4 panel">
-    <img ng-src="{{art.image}}" class="pull-left img-rounded small-img" />
-    <h2>{{art.title}}</h2>
+    <img ng-src="{{art.Items.Item.LargeImage}}" class="pull-left img-rounded small-img" />
+    <h2>{{art.Items.Item.ItemAttributes.Title}}</h2>
     <description>
-      {{art.description}}
+      {{art.Items.Item.ItemAttributes.Description}}
     </description>
   </article>
 </section>

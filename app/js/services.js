@@ -1,8 +1,5 @@
 artApp.factory('globals', function() {
 
-    var userId = '';
-    var userEmail = '';
-    var items = [];
     var itemsService = {};
 
     itemsService.getItemsFromAmazon = function( products ){
