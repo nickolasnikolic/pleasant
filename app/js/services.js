@@ -19,7 +19,7 @@ artApp.factory('globals', function() {
                     return items;
                 });
         });
-    }
+    };
 
     return itemsService;
 
