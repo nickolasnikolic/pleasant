@@ -12,12 +12,17 @@ artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($s
     'B00XAQX8O6',
     'B00E83VN9C'
     ];
-    $.when(function(){ globals.getItemsFromAmazon(productList); })
-        .then(function(){
-            $scope.artworks = globals.items;
-            console.log(globals.items);
-            console.log($scope.artworks);
-        });
+    $scope.artworks = [];
+    _.each(products,function(asin, index, list){
+        $.getJSON('../api/amazon/lookup/' + asin)
+            .success(function (data) {
+                $scope.artworks.push( data );
+            })
+            .error(function (error) {
+                console.log('error:');
+                console.log(error);
+            })
+    });
 }])
 artApp.controller('PaintingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
     document.title = 'pleasant.space - painting'; //set the page title
