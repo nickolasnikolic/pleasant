@@ -19,6 +19,8 @@ artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($s
         $.getJSON('../api/amazon/lookup/' + asin)
             .success(function (data) {
                 $scope.artworks.push( data );
+                console.log($scope.artworks);
+                $scope.$apply();
             })
             .error(function (error) {
                 console.log('error:');
