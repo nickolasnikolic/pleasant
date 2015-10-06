@@ -13,7 +13,7 @@ artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($s
       'B00E83VN9C'
   ];
 
-  $scope.art = globals.getItemsFromAmazon( productList );
+  $scope.artworks = globals.getItemsFromAmazon( productList );
 
 }])
 artApp.controller('PaintingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
@@ -27,7 +27,7 @@ artApp.controller('PaintingController', ['$scope', '$state', 'globals', function
         'B00NCV6JG8'
     ];
 
-    $scope.art = globals.getItemsFromAmazon( productList );
+    $scope.artworks = globals.getItemsFromAmazon( productList );
 
 }])
 artApp.controller('PrintsController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
@@ -41,7 +41,7 @@ artApp.controller('PrintsController', ['$scope', '$state', 'globals', function($
         'B00NCV6JG8'
     ];
 
-    $scope.art = globals.getItemsFromAmazon( productList );
+    $scope.artworks = globals.getItemsFromAmazon( productList );
 
 }])
 artApp.controller('DrawingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
@@ -55,7 +55,7 @@ artApp.controller('DrawingController', ['$scope', '$state', 'globals', function(
         'B00NCV6JG8'
     ];
 
-    $scope.art = globals.getItemsFromAmazon( productList );
+    $scope.artworks = globals.getItemsFromAmazon( productList );
 
 }])
 
