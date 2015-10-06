@@ -16,7 +16,7 @@ artApp.factory('globals', function() {
                     })
             });
         })
-        .done(function(){
+        .then(function(){
             console.log(itemsService.items);
             return itemsService.items;
         });
