@@ -5,28 +5,23 @@ artApp.factory('globals', function() {
     var items = [];
     var itemsService = {};
 
-    itemsService.add = function(item) {
-        items.push(item);
-    };
-    itemsService.list = function() {
+    itemsService.getItemsFromAmazon = function( products ){
+
+        var items = [];
+
+        _.each(products,function(asin, index, list){
+            $.getJSON('../api/amazon/lookup/' + asin)
+                .success(function (data) {
+                    items.push( data );
+                })
+                .error(function (error) {
+                    console.log('error:');
+                    console.log(error);
+                });
+        });
+        console.log(items);
         return items;
-    };
-
-    itemsService.getUserId = function(){
-      return userId;
-    };
-
-    itemsService.setUserId = function( whatToSetItTo ){
-      userId = whatToSetItTo;
-    };
-
-    itemsService.setUserEmail = function( whatToSetItTo ){
-      userEmail = whatToSetItTo;
-    };
-
-    itemsService.getUserEmail = function(){
-      return userEmail;
-    };
+    }
 
     return itemsService;
 
