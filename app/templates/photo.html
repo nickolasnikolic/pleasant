@@ -1,0 +1,9 @@
+<section class="container sale-items">
+  <article ng-repeat="art in artworks track by $index" class="col-sm-6 col-md-4 panel">
+    <img ng-src="{{art.image}}" class="pull-left img-rounded small-img" />
+    <h2>{{art.title}}</h2>
+    <description>
+      {{art.description}}
+    </description>
+  </article>
+</section>
