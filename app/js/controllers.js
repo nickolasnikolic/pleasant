@@ -27,6 +27,7 @@ artApp.controller('PhotoController', ['$scope', '$state', function($scope, $stat
   ];
 
   $scope.art = getItemsFromAmazon( productList );
+
 }])
 artApp.controller('ContactController', ['$scope', '$state', function($scope, $state) {
   document.title = 'pleasant.space - contact'; //set the page title
