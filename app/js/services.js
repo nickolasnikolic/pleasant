@@ -15,7 +15,7 @@ artApp.factory('globals', function() {
                     console.log(error);
                 })
                 .done(function(){
-                    console.log(items);
+                    console.log(itemsService.items);
                 });
         });
     };
