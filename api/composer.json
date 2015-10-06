@@ -1,0 +1,12 @@
+{
+    "require": {
+        "slim/slim": "~2.6",
+        "exeu/apai-io": "dev-master"
+    },
+    "extra": {
+      "heroku": {
+        "document-root": "api",
+        "index-document": "index.php"
+      }
+    }
+}
