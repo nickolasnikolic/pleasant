@@ -3,7 +3,6 @@ artApp.factory('globals', function() {
     var itemsService = {};
 
     itemsService.getItemsFromAmazon = function( products ){
-
         var items = [];
 
         _.each(products,function(asin, index, list){

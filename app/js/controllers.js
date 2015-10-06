@@ -3,18 +3,17 @@ artApp.controller('HomeController', ['$scope', '$state', 'globals', function($sc
 
 }])
 artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
-  document.title = 'pleasant.space - photos'; //set the page title
-  var productList = [
-      'B00EO5QY84',
-      'B00EILJKIA',
-      'B00ECJYYWA',
-      'B00EW4APKU',
-      'B00XAQX8O6',
-      'B00E83VN9C'
-  ];
-
-  $scope.artworks = globals.getItemsFromAmazon( productList );
-  $scope.$apply();
+    document.title = 'pleasant.space - photos'; //set the page title
+    var productList = [
+    'B00EO5QY84',
+    'B00EILJKIA',
+    'B00ECJYYWA',
+    'B00EW4APKU',
+    'B00XAQX8O6',
+    'B00E83VN9C'
+    ];
+    $.when( function(){ $scope.artworks = globals.getItemsFromAmazon( productList ) })
+        .then(function(){$scope.$apply();});
 }])
 artApp.controller('PaintingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
     document.title = 'pleasant.space - painting'; //set the page title
