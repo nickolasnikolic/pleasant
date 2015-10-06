@@ -14,7 +14,7 @@ artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($s
   ];
 
   $scope.artworks = globals.getItemsFromAmazon( productList );
-
+  $scope.$apply();
 }])
 artApp.controller('PaintingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
     document.title = 'pleasant.space - painting'; //set the page title
