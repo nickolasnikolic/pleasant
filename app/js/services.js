@@ -17,10 +17,12 @@ artApp.factory('globals', function() {
                 .error(function (error) {
                     console.log('error:');
                     console.log(error);
+                })
+                .done(function(){
+                    console.log(items);
+                    return items;
                 });
         });
-        console.log(items);
-        return items;
     }
 
     return itemsService;
