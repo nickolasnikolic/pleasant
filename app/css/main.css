@@ -117,7 +117,7 @@ a:visited{
 }
 
 .small-img{
-    width: 7em;
+    max-width: 7em;
     max-height: 20em;
     margin: 0.75em;
 }
@@ -128,7 +128,6 @@ article{
 
 footer{
     margin: 5em 1em;
-    background-color: rgba(55,55,55,1);
 }
 
 footer li{
@@ -143,7 +142,7 @@ footer li{
 .banner-right-prints,
 .banner-left-drawing,
 .banner-right-drawing{
-    height: 28em;
+    height: 18em;
     background-size: cover;
 }
 .banner-left-photo{
