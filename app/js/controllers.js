@@ -16,8 +16,8 @@ artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($s
   $scope.art = globals.getItemsFromAmazon( productList );
 
 }])
-artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
-    document.title = 'pleasant.space - photos'; //set the page title
+artApp.controller('PaintingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
+    document.title = 'pleasant.space - painting'; //set the page title
     var productList = [
         'B00YRUB4TA',
         'B00RV5X2MA',
