@@ -32,7 +32,7 @@
 </head>
 <body>
 <header>
-    <h1 class="logo col-sm-12 col-md-2 pull-left"><span><a href="index.php">her</span>.place</a></h1>
+    <h1 class="logo col-sm-12 col-md-2 pull-left"><span><a href="index-template.php">her</span>.place</a></h1>
     <nav class="col-sm-12 col-md-10 pull-right">
         <ul class="nav nav-pills">
             <li>
