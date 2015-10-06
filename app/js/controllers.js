@@ -12,10 +12,11 @@ artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($s
     'B00XAQX8O6',
     'B00E83VN9C'
     ];
-    $.when(function(){ $scope.artworks = globals.getItemsFromAmazon(productList); })
+    $.when(function(){ globals.getItemsFromAmazon(productList); })
         .then(function(){
+            $scope.artworks = globals.items;
+            console.log(globals.items);
             console.log($scope.artworks);
-            $scope.$apply();
         });
 }])
 artApp.controller('PaintingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
