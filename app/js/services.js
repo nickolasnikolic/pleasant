@@ -1,14 +1,14 @@
 artApp.factory('globals', function() {
 
     var itemsService = {};
-
+    itemsService.items = [];
     itemsService.getItemsFromAmazon = function( products ){
-        var items = [];
+        itemsService.items = [];
 
         _.each(products,function(asin, index, list){
             $.getJSON('../api/amazon/lookup/' + asin)
                 .success(function (data) {
-                    items.push( data );
+                    itemsService.items.push( data );
                 })
                 .error(function (error) {
                     console.log('error:');
@@ -16,7 +16,6 @@ artApp.factory('globals', function() {
                 })
                 .done(function(){
                     console.log(items);
-                    return items;
                 });
         });
     };
