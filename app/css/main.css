@@ -34,25 +34,23 @@ a,a:hover,a:active,a:visited,a:link{
     color: white;
 }
 
-.banner{
-    z-index: 1;
-}
+.banner{}
 
 .main-deals{
     height: 44em;
-    background-image: url(../images/placeholder-white.png);
+    background-image: url(../images/fish.jpg);
     background-size: cover;
     overflow: hidden;
 }
 .secondary-deals{
     height: 28em;
-    background-image: url(../images/placeholder-yellow.png);
+    background-image: url(../images/dark.jpg);
     background-size: cover;
     overflow: hidden;
 }
 .third-order-deals{
     height: 16em;
-    background-image: url(../images/placeholder-white.png);
+    background-image: url(../images/dancer.jpg);
     background-size: cover;
     background-position-y: -130px;
     overflow: hidden;
