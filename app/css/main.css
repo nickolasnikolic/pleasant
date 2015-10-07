@@ -34,42 +34,6 @@ a,a:hover,a:active,a:visited,a:link{
     color: white;
 }
 
-.banner{}
-
-.main-deals{
-    height: 44em;
-    background-image: url(../images/fish.jpg);
-    background-size: cover;
-    overflow: hidden;
-}
-.secondary-deals{
-    height: 28em;
-    background-image: url(../images/dark.jpg);
-    background-size: cover;
-    overflow: hidden;
-}
-.third-order-deals{
-    height: 16em;
-    background-image: url(../images/dancer.jpg);
-    background-size: cover;
-    background-position-y: -130px;
-    overflow: hidden;
-}
-
-.fourth-order-deals{
-    height: 38em;
-    background-image: url(../images/placeholder-yellow.png);
-    background-size: cover;
-    background-position-x: -150px;
-    overflow: hidden;
-}
-.last-but-not-least{
-    height: 38em;
-    background-image: url(../images/placeholder-white.png);
-    background-size: cover;
-    overflow: hidden;
-}
-
 .main-deals .deal-text,
 .secondary-deals .deal-text,
 .third-order-deals .deal-text,
@@ -127,6 +91,41 @@ footer li{
     list-style: none;
 }
 
+.banner{}
+
+.main-deals{
+    height: 44em;
+    background-image: url(../images/vise.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.secondary-deals{
+    height: 28em;
+    background-image: url(../images/dark.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.third-order-deals{
+    height: 16em;
+    background-image: url(../images/dancer.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.fourth-order-deals{
+    height: 38em;
+    background-image: url(../images/placeholder-yellow.png);
+    background-size: cover;
+    background-position-x: -150px;
+    overflow: hidden;
+}
+.last-but-not-least{
+    height: 38em;
+    background-image: url(../images/placeholder-white.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
 .banner-left-photo,
 .banner-right-photo,
 .banner-left-painting,
@@ -139,8 +138,26 @@ footer li{
     background-size: cover;
 }
 .banner-left-photo{
-    background-image: url(../images/placeholder-white.png);
+    background-image: url(../images/fashion.speeding-train.jpg);
 }
 .banner-right-photo{
-    background-image: url(../images/placeholder-yellow.png);
+    background-image: url(../images/outside.gulls-in-a-row.jpg);
+}
+.banner-left-painting{
+    background-image: url(../images/paint.jpg);
+}
+.banner-right-painting{
+    background-image: url(../images/blue.interior.jpg);
+}
+.banner-left-prints{
+    background-image: url(../images/print.jpg);
+}
+.banner-right-prints{
+    background-image: url(../images/dancer.jpg);
+}
+.banner-left-drawing{
+    background-image: url(../images/drawing.jpg);
+}
+.banner-right-drawing{
+    background-image: url(../images/monkey.jpg);
 }
