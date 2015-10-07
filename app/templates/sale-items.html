@@ -3,10 +3,10 @@
     <a ng-href="{{art.Items.Item.DetailPageURL}}" target="_blank">
       <img ng-src="{{art.Items.Item.LargeImage.URL}}" class="pull-left img-rounded small-img" />
       <h2>{{art.Items.Item.ItemAttributes.Title}}</h2>
-      <description class="pull-right">
+      <div class="description">
         <p><strong>{{art.Items.Item.ItemAttributes.Artist}}</strong></p>
         <p>{{art.Items.Item.EditorialReviews.EditorialReview.Content}}</p>
-      </description>
+      </div>
     </a>
   </article>
 </section>
