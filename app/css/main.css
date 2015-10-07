@@ -109,7 +109,7 @@ a:visited{
 }
 
 .sale-items img{
-    background-color: lightslategray;
+    display: block;
 }
 
 .sale-items h2{
