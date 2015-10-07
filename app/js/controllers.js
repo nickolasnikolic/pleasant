@@ -5,10 +5,7 @@ artApp.controller('HomeController', ['$scope', '$state', 'globals', function($sc
 artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
     document.title = 'pleasant.space - photos'; //set the page title
     var productList = [
-    'B00P058HTG',
     'B00I5UJLXO',
-    'B00P0V0BCG',
-    'B00TUL70JE',
     'B00P04L82U',
     'B00P0U53RK'
     ];
@@ -32,10 +29,7 @@ artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($s
 artApp.controller('PaintingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
     document.title = 'pleasant.space - painting'; //set the page title
     var productList = [
-        'B00KUEV6R2',
         'B00MW8LRB4',
-        'B00X4KWIV2',
-        'B00YI482I6',
         'B00WY666LA',
         'B012DYGB9O'
     ];
@@ -61,9 +55,6 @@ artApp.controller('PrintsController', ['$scope', '$state', 'globals', function($
     var productList = [
         'B00E1ODD0A',
         'B00DYC7TDM',
-        'B00ECBQ45S',
-        'B00HCRK1XA',
-        'B00EILJEBI',
         'B00XLYL0JM'
     ];
 
@@ -87,11 +78,8 @@ artApp.controller('DrawingController', ['$scope', '$state', 'globals', function(
     document.title = 'pleasant.space - drawing'; //set the page title
     var productList = [
         'B00FBP7WV4',
-        'B00DQ07XC4',
         'B00PM88DAY',
-        'B00HGLEXOA',
-        'B00DQDD9EC',
-        'B00EILNH2K'
+        'B00HGLEXOA'
     ];
 
     $scope.artworks = [];
