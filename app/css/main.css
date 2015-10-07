@@ -52,6 +52,7 @@ a,a:hover,a:active,a:visited,a:link{
 .sale-items article{
     margin: 1px 1px 5em 1px;
     padding: 3em;
+    background-color: white;
     min-height: 40em;
     cursor: pointer;
 }
