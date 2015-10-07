@@ -117,9 +117,8 @@ a:visited{
 }
 
 .small-img{
-    max-width: 30em;
-    max-height: 30em;
-    margin: 2.3435em;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 section{
