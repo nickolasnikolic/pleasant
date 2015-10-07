@@ -1,5 +1,5 @@
 <section class="sale-items">
-  <article ng-repeat="art in artworks track by $index" class="col-xs-9 col-xs-offset-3">
+  <article ng-repeat="art in artworks track by $index" class="col-xs-12 col-md-4 col-md-offset-8">
     <a ng-href="{{art.Items.Item.DetailPageURL}}" target="_blank">
       <img ng-src="{{art.Items.Item.LargeImage.URL}}" class="img-rounded small-img" />
       <h2>{{art.Items.Item.ItemAttributes.Title}}</h2>
