@@ -1,6 +1,5 @@
 html, body{
     font-family: 'questaregular';
-    z-index: 0;
 }
 
 header .logo{
@@ -117,9 +116,14 @@ a:visited{
 }
 
 .small-img{
-    max-width: 7em;
+    max-width: 12em;
     max-height: 20em;
-    margin: 0.75em;
+    margin: 0.75em auto;
+    clear: both;
+}
+
+section{
+    background-color: whitesmoke;
 }
 
 article{
