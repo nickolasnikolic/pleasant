@@ -3,13 +3,4 @@
   <div class="col-sm-12 col-md-5 banner-right-photo"></div>
 </section>
 
-<section class="container sale-items">
-  <article ng-repeat="art in artworks track by $index" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-    <img ng-src="{{art.Items.Item.LargeImage.URL}}" class="pull-left img-rounded small-img" />
-    <h2>{{art.Items.Item.ItemAttributes.Title}}</h2>
-    <description>
-      <p>{{art.Items.Item.ItemAttributes.Artist}}</p>
-      <p>{{art.Items.Item.EditorialReviews.EditorialReview.Content}}</p>
-    </description>
-  </article>
-</section>
+<section class="container sale-items" ng-include="templates/sale-items.html"></section>

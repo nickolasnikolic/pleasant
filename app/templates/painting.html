@@ -1,0 +1,15 @@
+<section class="banner">
+  <div class="col-sm-12 col-md-7 banner-left-painting"></div>
+  <div class="col-sm-12 col-md-5 banner-right-painting"></div>
+</section>
+
+<section class="container sale-items">
+  <article ng-repeat="art in artworks track by $index" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+    <img ng-src="{{art.Items.Item.LargeImage.URL}}" class="pull-left img-rounded small-img" />
+    <h2>{{art.Items.Item.ItemAttributes.Title}}</h2>
+    <description class="pull-right">
+      <p><strong>{{art.Items.Item.ItemAttributes.Artist}}</strong></p>
+      <p>{{art.Items.Item.EditorialReviews.EditorialReview.Content}}</p>
+    </description>
+  </article>
+</section>
