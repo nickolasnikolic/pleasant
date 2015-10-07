@@ -4,7 +4,7 @@
 </section>
 
 <section class="container sale-items">
-  <article ng-repeat="art in artworks track by $index" class="col-sm-6 col-md-4 panel">
+  <article ng-repeat="art in artworks track by $index" class="col-sm-6 col-md-4">
     <img ng-src="{{art.Items.Item.LargeImage.URL}}" class="pull-left img-rounded small-img" />
     <h2>{{art.Items.Item.ItemAttributes.Title}}</h2>
     <description>
