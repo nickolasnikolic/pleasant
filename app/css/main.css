@@ -1,5 +1,6 @@
 html, body{
     font-family: 'questaregular';
+    letter-spacing: 0.12345em;
 }
 
 header .logo{
