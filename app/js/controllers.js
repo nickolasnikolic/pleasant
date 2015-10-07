@@ -31,7 +31,7 @@ artApp.controller('PaintingController', ['$scope', '$state', 'globals', function
     var productList = [
         'B00MW8LRB4',
         'B00WY666LA',
-        'B012DYGB9O'
+        'B00MERGUKG'
     ];
 
     $scope.artworks = [];
@@ -78,7 +78,7 @@ artApp.controller('DrawingController', ['$scope', '$state', 'globals', function(
     document.title = 'pleasant.space - drawing'; //set the page title
     var productList = [
         'B00FBP7WV4',
-        'B00PM88DAY',
+        'B012DYGB9O',
         'B00HGLEXOA'
     ];
 
