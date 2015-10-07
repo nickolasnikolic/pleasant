@@ -16,25 +16,10 @@ header ul ul li:hover{
     color: white;
 }
 
-a{
+a,a:hover,a:active,a:visited,a:link{
     color: black;
     text-decoration: none;
     cursor: pointer;
-}
-
-a:hover{
-    color: black;
-    text-decoration: none;
-}
-
-a:visited{
-    color: black;
-    text-decoration: none;
-}
-
-a:active{
-    color: black;
-    text-decoration: none;
 }
 
 .nav-pills>li>a{
