@@ -27,7 +27,7 @@ artApp.controller('PhotoController', ['$scope', '$state', 'globals', function($s
 }])
 
 artApp.controller('PaintingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
-    document.title = 'pleasant.space - painting'; //set the page title
+    document.title = 'pleasing.space - painting'; //set the page title
     var productList = [
         'B00MW8LRB4',
         'B00WY666LA',
@@ -51,7 +51,7 @@ artApp.controller('PaintingController', ['$scope', '$state', 'globals', function
 
 }])
 artApp.controller('PrintsController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
-    document.title = 'pleasant.space - prints'; //set the page title
+    document.title = 'pleasing.space - prints'; //set the page title
     var productList = [
         'B00E1ODD0A',
         'B00DYC7TDM',
@@ -75,7 +75,7 @@ artApp.controller('PrintsController', ['$scope', '$state', 'globals', function($
 
 }])
 artApp.controller('DrawingController', ['$scope', '$state', 'globals', function($scope, $state, globals) {
-    document.title = 'pleasant.space - drawing'; //set the page title
+    document.title = 'pleasing.space - drawing'; //set the page title
     var productList = [
         'B00FBP7WV4',
         'B012DYGB9O',
@@ -100,6 +100,6 @@ artApp.controller('DrawingController', ['$scope', '$state', 'globals', function(
 }])
 
 artApp.controller('ContactController', ['$scope', '$state', function($scope, $state) {
-  document.title = 'pleasant.space - contact'; //set the page title
+  document.title = 'pleasing.space - contact'; //set the page title
   //send self email
 }])
