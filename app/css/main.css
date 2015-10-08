@@ -59,6 +59,10 @@ a,a:hover,a:active,a:visited,a:link{
     cursor: pointer;
 }
 
+section.sale-items > article > a{
+    color: inherit;
+}
+
 .sale-items img{
     display: block;
 }
