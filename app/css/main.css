@@ -47,7 +47,7 @@ a,a:hover,a:active,a:visited,a:link{
     position: absolute;
     bottom: 2em;
     left: 2em;
-    width: 50%;
+    min-width: 50%;
     color: white;
     background-color: rgba(55, 15, 15, 0.7);
 }
