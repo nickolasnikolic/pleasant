@@ -60,7 +60,7 @@ a,a:hover,a:active,a:visited,a:link{
 }
 
 section.sale-items > article > a{
-    color: inherit;
+    color: black;
 }
 
 .sale-items img{
