@@ -28,7 +28,6 @@ a,a:hover,a:active,a:visited,a:link{
 
 .nav-pills>li>a{
     font-size: 1.5em;
-    color: black;
     border-radius: 0px;
     padding-top: 1.5em;
 }
